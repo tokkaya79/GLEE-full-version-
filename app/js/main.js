@@ -35,12 +35,12 @@ $('.button-list').on('click', function () {
  });
 
 
-  $('.top-slider__inner').slick({
+ $('.top-slider__inner').slick({
     dots: true,
     arrows: false,
     fade: true,
     autoplay: true,
-    autoplaySpead: 2000,
+    autoplaySpead: 600,
   });
 
  $(".star").rateYo({
