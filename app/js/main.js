@@ -7,11 +7,13 @@ $('.shop-content__filter-btn').on('click', function () {
 });
 
 $('.button-list').on('click', function () {
+ $('.products__items').addClass('products__items--list');
  $('.products-item').addClass('products-item--list');
  
 });
 
  $('.button-grid').on('click', function () {
+  $('.products__items').removeClass('products__items--list');
   $('.products-item').removeClass('products-item--list');
 
  });
@@ -44,6 +46,16 @@ $('.button-list').on('click', function () {
   });
 
  $(".star").rateYo({
+
+  starWidth: "12px",
+  spacing: "8px",
+  normalFill: "#ccccce",
+  ratedFill: "#ffc35b",
+  readOnly: true
+
+ });
+ 
+ $(".star__shop").rateYo({
 
   starWidth: "12px",
   spacing: "8px",
