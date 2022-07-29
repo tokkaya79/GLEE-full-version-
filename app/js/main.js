@@ -45,8 +45,8 @@ $('.button-list').on('click', function () {
 
  $(".star").rateYo({
 
-  starWidth: "17px",
-  spacing: "5px",
+  starWidth: "12px",
+  spacing: "8px",
   normalFill: "#ccccce",
   ratedFill: "#ffc35b",
   readOnly: true
