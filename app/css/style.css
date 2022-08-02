@@ -77,6 +77,28 @@ body {
  margin: 0 auto;
 }
 
+.text {
+ color: #243f4d;
+ font-size: 16px;
+ font-family: 'Rubik', sans-serif;
+ font-weight: 400;
+ line-height: 2;
+}
+
+.bottom {
+ background-color: #a3bbc8;
+ border: none;
+ text-transform: uppercase;
+ font-size: 15px;
+ line-height: 1.5;
+ color: #fff;
+ font-family: 'Rubik', sans-serif;
+ font-weight: 400;
+ cursor: pointer;
+ padding: 16px 55px;
+ letter-spacing: 1px;
+}
+
 .breadcrumbs__list {
  display: flex;
  justify-content: center;
@@ -1706,6 +1728,365 @@ body {
  background-color: #a3bbc8;
  color: #fff;
 }
+
+
+.product-item__inner {
+ display: flex;
+}
+
+.product-item {
+ margin: 120px 0;
+}
+
+.product-slider {
+ display: flex;
+}
+
+.product-item__slider {
+ height: 530px;
+ width: 550px;
+ display: flex;
+ margin-right: 70px;
+}
+
+.product-slider__thumb {
+ height: 530px;
+ margin-right: 25px;
+}
+
+.product-slider__big {
+ width: 390px;
+}
+
+.product-slider__big-item {
+ height: 530px;
+ width: 390px;
+}
+
+.product-slider__thumb-item {
+ padding: auto 30px;
+ overflow: hidden;
+}
+
+.product-slider__big-item {
+ background-color: #fff;
+ border: 1px solid #d6e1e7;
+ padding: 60px;
+ overflow: hidden;
+}
+
+.product-slider .slick-vertical .slick-slide {
+ height: 157px;
+ margin-bottom: 30px;
+ border: 1px solid #d6e1e7;
+ padding: 10px;
+}
+
+.product-info {
+ max-width: 560px;
+}
+
+.product-info__title {
+ color: #333333;
+ font-size: 40px;
+ font-family: 'Rubik', sans-serif;
+ font-weight: 400;
+ margin: 30px 0 20px;
+}
+
+.product-info span {
+ display: inline-block;
+ color: #333333;
+ font-size: 30px;
+ font-family: 'Rubik', sans-serif;
+ font-weight: 400;
+ padding-top: 40px;
+
+}
+
+.product-info__text {
+ margin-top: 25px;
+ margin-bottom: 25px;
+
+}
+
+.product-info__num {
+ width: 150px;
+ height: 54px;
+ margin-right: 20px;
+ position: relative;
+}
+
+.product-info__btn {
+ border-radius: 5px;
+}
+
+.jq-number__field input {
+ text-align: center;
+ color: #000;
+ font-size: 18px;
+
+}
+
+.jq-number__spin {
+ position: absolute;
+ top: 22px;
+ right: 10px;
+ width: 32px;
+ height: 14px;
+ border: none;
+ border-bottom-color: none;
+ border-radius: 0;
+ background: none;
+ box-shadow: none;
+ box-shadow: none;
+ user-select: none;
+ text-shadow: none;
+ cursor: pointer;
+}
+
+.jq-number__spin.minus {
+ bottom: 19px;
+ left: 10px;
+}
+
+.jq-number__spin:hover {
+ background: none;
+}
+
+.jq-number__field {
+ width: 150px;
+ border: 1px solid #d6e1e7;
+}
+
+.jq-number__spin::after {
+ width: 10px;
+ height: 1px;
+ background-color: #222933;
+ border: none;
+}
+
+.jq-number__spin.plus::before {
+ content: '';
+ width: 1px;
+ height: 10px;
+ background-color: #222933;
+ position: absolute;
+ left: 14px;
+}
+
+.jq-number__spin.minus::after {
+ border-top: none;
+}
+
+
+.product-info__num::before {
+ content: '';
+ height: 54px;
+ width: 1px;
+ background-color: #d6e1e7;
+ position: absolute;
+ right: 100px;
+}
+
+.product-info__num::after {
+ content: '';
+ height: 54px;
+ width: 1px;
+ background-color: #d6e1e7;
+ position: absolute;
+ left: 100px;
+ bottom: 0;
+}
+
+.product-info__tegs {
+ margin-top: 60px;
+ color: #243f4d;
+ font-size: 16px;
+ line-height: 1.5;
+
+}
+
+.tegs__link {
+ margin-left: 5px;
+ text-decoration: none;
+ color: #243f4d;
+}
+
+.product-tabs {
+ margin: 100px 0 130px;
+}
+
+.product-tabs__top {
+ margin-bottom: 35px;
+ display: flex;
+ justify-content: center;
+}
+
+.product-tabs__top-item {
+ margin-right: 15px;
+ width: 240px;
+ height: 55px;
+ background-color: #edf1f4;
+ color: #243f4d;
+ font-family: 'Rubik', sans-serif;
+ font-weight: 500;
+ font-size: 18px;
+ text-align: center;
+ padding-top: 20px;
+ border-radius: 5px;
+}
+
+.product-tabs__top-item--active {
+ background-color: #a3bbc8;
+ color: #fff;
+}
+
+.product-tabs__content-item {
+ display: none;
+}
+
+.product-tabs__content-item.product-tabs__content-item--active {
+ display: block;
+}
+
+.content-flex__img {
+ height: 300px;
+ width: 200px;
+ display: inline-block;
+ border: 1px solid #c2d2da;
+ padding: 20px;
+ margin-left: 30px;
+}
+
+.content-flex img {
+ object-fit: cover;
+}
+
+.tab-1__content {
+ max-width: 875px;
+ display: inline-block;
+}
+
+.comments {
+ display: flex;
+ margin-bottom: 20px;
+}
+
+.comments__img {
+ width: 110px;
+ height: 70px;
+ border-radius: 50%;
+ display: inline-block;
+ object-fit: cover;
+ overflow: hidden;
+ margin-right: 30px;
+}
+
+.comments__content-top {
+ display: flex;
+}
+
+.comments__content-name {
+ margin-right: 20px;
+}
+
+.comments__content-date {
+ margin-left: 20px;
+}
+
+.comments__content-star.jq-ry-container {
+ padding-top: 3px;
+ margin: 0 auto 0 70px;
+}
+
+.comments__content-reply {
+ padding-left: 25px;
+ position: relative;
+ cursor: pointer;
+ margin-top: 10px;
+ color: #8b8b8b;
+}
+
+.comments__content-reply::before {
+ content: '';
+ position: absolute;
+ width: 15px;
+ height: 14px;
+ background-image: url('../images/icons/reply.svg');
+ left: 0;
+ top: 2px;
+}
+
+
+.related-product__title {
+ margin-bottom: 40px;
+ font-size: 36px;
+ color: #243f4d;
+ font-family: 'DM Sans', sans-serif;
+ font-weight: 700;
+}
+
+.related-product__slider-items {
+ display: flex;
+ position: relative;
+}
+
+.related-product__slider-items .slick-arrow {
+ width: 50px;
+ height: 50px;
+ background-color: #fff;
+ border: 1px solid #e1e9ed;
+ border-radius: 5px;
+ position: absolute;
+ top: -56px;
+ display: inline-block;
+}
+
+.related-product__slider-items .slick-arrow:hover {
+ border: 1px solid #a3bbc8;
+}
+
+.related-product__slider-items .next {
+ right: 0;
+}
+
+.related-product__slider-items .next::before {
+ content: '';
+ background-image: url('../images/icons/arrow_next.svg');
+ width: 22px;
+ height: 9px;
+ position: absolute;
+ background-repeat: no-repeat;
+ background-position: center;
+ top: 20px;
+ right: 11px;
+}
+
+.related-product__slider-items .prev::before {
+ content: '';
+ background-image: url('../images/icons/arrow_prev.svg');
+ width: 22px;
+ height: 9px;
+ position: absolute;
+ background-repeat: no-repeat;
+ background-position: center;
+ top: 20px;
+ right: 15px;
+}
+
+.related-product__slider-items .prev {
+ right: 60px;
+ position: absolute;
+}
+
+.related-product__slider-items .products-item {
+ margin-left: 34px;
+
+}
+
+
+
 
 
 
