@@ -2264,6 +2264,10 @@ max-width: 75px;
   position: absolute;
   left: 0;
 }
+.blog-page__pagination{
+  justify-content: flex-start;
+  margin: 120px 0 80px;
+}
 
 
 /* font-family: 'DM Sans', sans-serif;
