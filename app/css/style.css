@@ -139,7 +139,7 @@ body {
 .header__inner {
   display: flex;
   justify-content: space-between;
-  margin: 20px 75px;
+  margin: 20px 0;
 }
 
 .header__logo {
@@ -267,12 +267,13 @@ body {
 
 .top-slider {
   background-color: #fcd7b6;
-  height: 90vh;
+  height: 760px;
 }
 
 .top-slider__container {
   margin: 0 auto;
   max-width: 1430px;
+ 
   background-image: url(../images/fon.png);
   background-repeat: no-repeat;
   background-position-x: 725px;
@@ -366,7 +367,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: auto 150px;
+  width: 100%;
 }
 
 .info__item {
