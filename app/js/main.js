@@ -1,5 +1,27 @@
 $(function(){
 
+//   window.addEventListener("resize", function() {
+//   if (window.innerWidth <= 768) {
+//     $('.top-slider__inner').slick('unslick');
+//     sliderIsLive = false;
+//   }
+//   else {
+//     if (sliderIsLive) {
+//       $('.top-slider__inner').slick();
+//       sliderIsLive = true;
+//     }
+//   }
+// });
+
+  const menuList = document.querySelector('.menu__list')
+  const burgerIcon = document.querySelector('.burger__icon')
+
+  if(burgerIcon){
+    burgerIcon.addEventListener('click', function(e){
+        menuList.classList.toggle('_active')
+     })
+  }
+
  $('.related-product__slider-items').slick({
   dots: false,
   arrows: true,

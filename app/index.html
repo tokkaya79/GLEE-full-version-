@@ -25,7 +25,6 @@
 <body>
  <header>
   <div class="container">
-
   <div class="header__inner">
    <a class="header__logo" href="#">
     <div class="logo">
@@ -58,26 +57,30 @@
    <div class="user-nav">
     <div class="user-nav__search">
      <a class="user-nav__link" href="#">
-      <img class="user-nav__img" src="images/icons/search.png" alt=icon">
+      <img class="user-nav__img" src="images/icons/search.png" alt="icon">
      </a>
     </div>
     <div class="user-nav__heart">
      <a class="user-nav__link" href="#">
-      <img class="user-nav__img" src="images/icons/heart.png" alt=icon">
+      <img class="user-nav__img" src="images/icons/heart.png" alt="icon">
       <span class="user-nav__num">0</span>
      </a>
      <span class="user-nav__line"></span>
      <a class="user-nav__link" href="#">
-      <img class="user-nav__img" src="images/icons/cart.png" alt=icon">
+      <img class="user-nav__img" src="images/icons/cart.png" alt="icon">
       <span class="user-nav__num">0</span>
      </a>
     </div>
     <div class="user-nav__points">
      <a class="user-nav__link" href="#">
-      <img class="user-nav__img" src="images/icons/points.png" alt=icon">
+      <img class="user-nav__img" src="images/icons/points.png" alt="icon">
      </a>
     </div>
    </div>
+    <div class="burger">
+    <span class="burger__icon"></span>
+   </div>
+   
   </div>
   </div>
  </header>
@@ -436,6 +439,9 @@
   </section>
   <div class="lamp-info">
    <div class="lamp-info__item">
+    <div class="lamp-info__img-box">
+         <img class="lamp-info__img" src="./images/lamp2.png" alt="foto">
+      </div>
     <div class="lamp-info__content lamp-info__content--left">
      <h3 class="lamp-info__title">Mirum Notare Tellus</h3>
      <p class="lamp-info__text">LEDCornBulb Lamp 5W 7W 10W 12W 15W E26 E27LEDCornLight</p>
@@ -443,10 +449,13 @@
     </div>
    </div>
    <div class="lamp-info__item">
+    <div class="lamp-info__img-box">
+      <img class="lamp-info__img" src="./images/lamp1.png" alt="foto">
+    </div>
     <div class="lamp-info__content lamp-info__content--right">
      <h3 class="lamp-info__title">Malesuada Tempor
       Euismod</h3>
-     <p class="lamp-info__text">50W 8000lm Compact Size for HID StreetLightReplacementLEDCornLight</p>
+     <p class="lamp-info__text">50W 8000lm Compact Size for HID StreetLightReplacement LEDCornLight</p>
      <a class="lamp-info__link" href="#">View More</a>
     </div>
    </div>
@@ -513,12 +522,12 @@
     </div>
    </div>
   </section>
-  <section class="video">
+ <section class="video">
    <a class="video__link" data-fancybox href="https://www.youtube.com/watch?v=WY8CwDN2uSs">
     <img class="video__btn" src="images/icons/play-btn.png" alt="play">
    </a>
   </section>
-  <section class="blog">
+   <section class="blog">
    <div class="container">
     <div class="blog__top">
      <h2 class="blog__title">Our Insights & Articles</h2>
@@ -527,7 +536,9 @@
     <div class="blog__items">
      <article class="blog__item">
       <a class="blog__item-link" href="#">
-       <img class="blog__img" src="images/atikles/1.png" alt="foto-blog">
+        <div class="blog__img-box">
+          <img class="blog__img" src="images/atikles/1.png" alt="foto-blog">
+        </div>
        <p class="blog__text">Diusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
       </a>
       <a class="blog__date" href="#">
@@ -539,7 +550,9 @@
      </article>
      <article class="blog__item">
       <a href="" class="blog__item-link">
+        <div class="blog__img-box">
        <img class="blog__img" src="images/atikles/2.png" alt="foto-blog">
+       </div>
        <p class="blog__text">Diusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
       </a>
       <a class="blog__date" href="#">28 JANUARY, 2020</a>
@@ -547,7 +560,9 @@
      </article>
      <article class="blog__item">
       <a class="blog__item-link" href="#">
+        <div class="blog__img-box">
        <img class="blog__img" src="images/atikles/3.png" alt="foto-blog">
+       </div>
        <p class="blog__text">Diusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
       </a>
       <a class="blog__date" href="#">28 JANUARY, 2020</a>
@@ -564,7 +579,7 @@
    </div>
   </section>
  </main>
- <footer class="footer">
+  <footer class="footer">
   <div class="container">
    <div class="footer__inner">
     <div class="footer-top">
@@ -653,4 +668,4 @@
  <script src="js/main.js"></script>
 </body>
 
-</html>
+</html> 
